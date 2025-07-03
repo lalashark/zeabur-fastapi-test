@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from Zeabur + FastAPI!"}
+    return {"message": "Hello from Zeabur + FastAPI! v2"}
 
 @app.get("/health")
 def health_check():
